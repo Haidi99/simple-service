@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.jst.ws.client.type.java">
+		<item value="http://localhost:8080/emp?wsdl"/>
+		<item value="http://localhost:9090/emp?wsdl"/>
+		<item value="http://localhost:8090/emp?wsdl"/>
+		<item value="http://localhost:3030/emp?wsdl"/>
+		<item value="http://localhost:3000/emp?wsdl"/>
+	</list>
+</section>

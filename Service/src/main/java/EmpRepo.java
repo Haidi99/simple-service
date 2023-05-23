@@ -1,0 +1,47 @@
+import java.io.Serializable;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="employee"
+,catalog="empdb")
+public class EmpRepo implements Serializable{
+	
+	private String name;
+	private int age;
+	private int id;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	 @Id
+
+	    
+	 @Column(name="id", unique=true, nullable=false)
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	@Override
+	public String toString(){
+		return id+"::"+name+"::"+age;
+	}
+
+}

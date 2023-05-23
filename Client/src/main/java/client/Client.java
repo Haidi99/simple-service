@@ -1,0 +1,33 @@
+package client;
+import java.rmi.RemoteException;
+
+import javax.xml.rpc.ServiceException;
+
+import AnyThing.EmpRepo;
+import AnyThing.EmpServiceImpl;
+import AnyThing.EmpServiceImplServiceLocator;
+
+public class Client {
+	public static void main(String[] args) throws ServiceException, RemoteException {
+	EmpServiceImplServiceLocator empService = new EmpServiceImplServiceLocator();
+	EmpServiceImpl emp = empService.getEmpServiceImplPort();
+	
+	EmpRepo employee = new EmpRepo();
+	employee.setId(3);
+	employee.setAge(5);
+	employee.setName("haidiii");
+//	emp.addEmp(employee);
+	
+//	emp.getAllEmployees();
+	emp.empCount();
+	emp.updateEmployee(employee);
+//  emp.getEmpById(1);
+	
+//	EmpRepo[] emps = emp.getAllPersons();
+//	
+//	for(EmpRepo emp1 : emps)
+//	{
+//		System.out.println(emp1.getName());
+//	}
+}
+}

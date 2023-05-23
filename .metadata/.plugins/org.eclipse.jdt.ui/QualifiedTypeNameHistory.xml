@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="EmpService"/>
+    <fullyQualifiedTypeName name="javax.jws.WebService"/>
+    <fullyQualifiedTypeName name="javax.jws.WebMethod"/>
+    <fullyQualifiedTypeName name="javax.xml.ws.Endpoint"/>
+    <fullyQualifiedTypeName name="EmpServiceImpl"/>
+    <fullyQualifiedTypeName name="AnyThing.EmpServiceImplServiceLocator"/>
+    <fullyQualifiedTypeName name="AnyThing.EmpServiceImpl"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="AnyThing.EmpRepo"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="javax.jws.soap.SOAPBinding"/>
+    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+    <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.criteria.CriteriaBuilder"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.criteria.CriteriaQuery"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.criteria.Root"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="org.hibernate.query.Query"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+    <fullyQualifiedTypeName name="EmpRepo"/>
+    <fullyQualifiedTypeName name="jakarta.xml.ws.Endpoint"/>
+    <fullyQualifiedTypeName name="jakarta.jws.WebService"/>
+</qualifiedTypeNameHistroy>
